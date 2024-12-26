@@ -1,6 +1,6 @@
 # capstone-project
-FriendshipZone
-Overview
+<b>FriendshipZone</b><br>
+<b>Overview</b><br>
 FriendshipZone is a capstone project created using pure HTML. The project demonstrates foundational web development skills by building a simple and structured website. It includes a homepage, a login page, and other basic features to showcase the theme of friendships.
 
 Features
