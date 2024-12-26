@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+
+<body>
+    <img src="Friends.PNG" alt="Friends Image" />
+
+    <h1 style="text-align: center;">Friendship Zone</h1>
+    <h2>Add your details to register</h2>
+
+    <form>
+        <div>
+            Name: <input type="text" minlength="3" pattern="^[A-Za-z\s]+$" placeholder="Enter your name">
+        </div>
+        <br>
+
+        <div>
+            Email: <input type="email" placeholder="Enter your email">
+        </div>
+        <br>
+
+        <div>
+            Age: <input type="number" min="18" max="120">
+        </div>
+        <br>
+
+        <div>
+            Birth day: <input type="date">
+        </div>
+        <br>
+
+        <div>
+            Gender: 
+            <input type="radio" name="gender" value="M"> M 
+            <input type="radio" name="gender" value="F"> F
+        </div>
+        <br>
+
+        <div>
+            About: <textarea cols="40" rows="5" placeholder="Tell us about yourself"></textarea>
+        </div>
+        <br>
+
+        <div>
+            Phone: <input type="tel" placeholder="Enter your phone number" required>
+        </div>
+        <br>
+
+        <div>
+            Interested in: 
+            <input type="radio" name="interest" value="Friendship"> Friendship 
+            <input type="radio" name="interest" value="Dating"> Dating
+        </div>
+        <br>
+
+        <div>
+            Attachment: <input type="file" accept="image/*,application/pdf">
+        </div>
+        <br><br>
+
+        <table style="border: 2px solid red; border-collapse: collapse;">
+            <tr>
+                <td style="border: 2px solid red; padding: 10px;">
+                    <a href="RegistrationConfirmation.html" target="_blank">
+                        <button type="button">Register</button>
+                    </a>
+                    
+                    
+                    <a href="RegistrationConfirmationforAdmin.html" target="_blank">
+                        <button type="button">Register as Admin</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
